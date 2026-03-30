@@ -37,7 +37,7 @@ public class EmployeeFilter {
 
         
         List<Employee> highSalaryEmployees = employees.stream()
-                .filter(emp -> emp.salary > 50000)          // Lambda for filter
+                .filter(emp -> emp.salary > 50000)          
                 .collect(Collectors.toList());
 
      
