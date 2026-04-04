@@ -1,7 +1,7 @@
 public class PalindromeNumber {
     public static void main(String[] args) {
 
-        int num = 121;   // input number
+        int num = 121;   
         String str = Integer.toString(num);
 
         String reversed = new StringBuilder(str).reverse().toString();

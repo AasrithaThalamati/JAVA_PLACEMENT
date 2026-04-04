@@ -7,7 +7,7 @@ public class LargestTwoDigit {
 
         for(int i = 0; i < k.length; i++) {
 
-            if(k[i] >= 10 && k[i] <= 99) {   // check if two digit
+            if(k[i] >= 10 && k[i] <= 99) {   
                 if(k[i] > largest) {
                     largest = k[i];
                 }
