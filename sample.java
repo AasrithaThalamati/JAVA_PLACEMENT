@@ -1,17 +1,17 @@
 import java.util.Scanner;
-class Node{
+class ListNode{
     int data;
-    Node next;
+    ListNode next;
 }
 public class sample{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Node head=null;
-        Node tail=null;
+        ListNode head=null;
+        ListNode tail=null;
         int n=4;
         while(n>0){
             int data = sc.nextInt();
-            Node newNode = new Node();
+            ListNode newNode = new ListNode();
             newNode.data=data;
             newNode.next=null;
             if(head==null){
